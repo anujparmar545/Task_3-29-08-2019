@@ -1,0 +1,16 @@
+import java.util.StringTokenizer;
+
+public class Ten {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s="1.java,2.oracle,3.python,4.php,5.linux.....";
+		
+		StringTokenizer st=new StringTokenizer(s, "0123456789,.");
+		while(st.hasMoreTokens())
+			System.out.println(st.nextToken());
+
+	}
+
+}
